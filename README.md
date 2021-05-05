@@ -16,6 +16,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 DinaYestemirCustomFramework is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
+[![Build Status](https://travis-ci.com/yestemir/DinaYestemirCustomFramework.svg?branch=master)](https://travis-ci.com/yestemir/DinaYestemirCustomFramework)
+
 ```ruby
 pod 'DinaYestemirCustomFramework'
 ```

@@ -12,6 +12,9 @@
 		32D873EE09BFDB14994C3E4A2546D0FB /* DinaYestemirCustomFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7162F025BD75FE4FABD2843C7AF4101 /* DinaYestemirCustomFramework-dummy.m */; };
 		365682F626424566002C7085 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365682F526424566002C7085 /* Main.swift */; };
 		3656831726424739002C7085 /* DinaYestemirCustomFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5B28398DD2A46518D2E70E9149820884 /* DinaYestemirCustomFramework.podspec */; };
+		3656832326425912002C7085 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D940727FF8FB9C785EB98E56350EF41 /* Podfile */; };
+		365683242642591A002C7085 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E19DABFD7E81D64BC2C1E2393CC81E17 /* LICENSE */; };
+		365683252642591C002C7085 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0B8DF24F420F83C58EF994311262DEE3 /* README.md */; };
 		5BDE15545B949B685DD0698B1D4EBC28 /* Pods-DinaYestemirCustomFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34346BC90275BDD09B3A3F0089D2780C /* Pods-DinaYestemirCustomFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7320AE2FB7B2BB806A9380338F08FA5C /* Pods-DinaYestemirCustomFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD15E262AD73B8D9430B5E16D28404 /* Pods-DinaYestemirCustomFramework_Example-dummy.m */; };
 		8D4BD42FC8E508CF21264A3C504E02AA /* Pods-DinaYestemirCustomFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07296310A8375B0ED3448E7FBDF0EDD9 /* Pods-DinaYestemirCustomFramework_Tests-dummy.m */; };
@@ -349,6 +352,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				365683242642591A002C7085 /* LICENSE in Resources */,
+				3656832326425912002C7085 /* Podfile in Resources */,
+				365683252642591C002C7085 /* README.md in Resources */,
 				3656831726424739002C7085 /* DinaYestemirCustomFramework.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
