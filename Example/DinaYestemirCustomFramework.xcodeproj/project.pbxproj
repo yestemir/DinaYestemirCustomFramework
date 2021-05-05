@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3656833F26425F08002C7085 /* CustomFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 3656833D26425F08002C7085 /* CustomFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3656834226425F08002C7085 /* CustomFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3656833B26425F08002C7085 /* CustomFramework.framework */; };
+		3656834326425F08002C7085 /* CustomFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3656833B26425F08002C7085 /* CustomFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		412CDBAFC70E1DC22F25DDFD /* Pods_DinaYestemirCustomFramework_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D51B9484D1BFCE9CCC4C32 /* Pods_DinaYestemirCustomFramework_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -18,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3656834026425F08002C7085 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3656833A26425F08002C7085;
+			remoteInfo = CustomFramework;
+		};
 		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
@@ -27,9 +37,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3656834426425F09002C7085 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3656834326425F08002C7085 /* CustomFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		14BCCD640AFB695FD71ECBA4 /* DinaYestemirCustomFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DinaYestemirCustomFramework.podspec; path = ../DinaYestemirCustomFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2783D43D8F6CCBA9D40FBD78 /* Pods-DinaYestemirCustomFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinaYestemirCustomFramework_Example.release.xcconfig"; path = "Target Support Files/Pods-DinaYestemirCustomFramework_Example/Pods-DinaYestemirCustomFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3656833B26425F08002C7085 /* CustomFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3656833D26425F08002C7085 /* CustomFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomFramework.h; sourceTree = "<group>"; };
+		3656833E26425F08002C7085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B99D05378B0E2B7C3E6ECEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		44C651A32E0B636F804E0909 /* Pods-DinaYestemirCustomFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinaYestemirCustomFramework_Tests.release.xcconfig"; path = "Target Support Files/Pods-DinaYestemirCustomFramework_Tests/Pods-DinaYestemirCustomFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DinaYestemirCustomFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinaYestemirCustomFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,10 +77,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3656833826425F08002C7085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCD1AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3656834226425F08002C7085 /* CustomFramework.framework in Frameworks */,
 				8E3304EE9E67E9E6CE344F4A /* Pods_DinaYestemirCustomFramework_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,6 +113,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3656833C26425F08002C7085 /* CustomFramework */ = {
+			isa = PBXGroup;
+			children = (
+				3656833D26425F08002C7085 /* CustomFramework.h */,
+				3656833E26425F08002C7085 /* Info.plist */,
+			);
+			path = CustomFramework;
+			sourceTree = "<group>";
+		};
 		3B31FCB406CD7ABCE462352F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +139,7 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for DinaYestemirCustomFramework */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				3656833C26425F08002C7085 /* CustomFramework */,
 				607FACD11AFB9204008FA782 /* Products */,
 				3B31FCB406CD7ABCE462352F /* Pods */,
 				0C08962EFDBE0BFBC8A6C079 /* Frameworks */,
@@ -106,6 +151,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* DinaYestemirCustomFramework_Example.app */,
 				607FACE51AFB9204008FA782 /* DinaYestemirCustomFramework_Tests.xctest */,
+				3656833B26425F08002C7085 /* CustomFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,7 +207,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		3656833626425F08002C7085 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3656833F26425F08002C7085 /* CustomFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		3656833A26425F08002C7085 /* CustomFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3656834726425F09002C7085 /* Build configuration list for PBXNativeTarget "CustomFramework" */;
+			buildPhases = (
+				3656833626425F08002C7085 /* Headers */,
+				3656833726425F08002C7085 /* Sources */,
+				3656833826425F08002C7085 /* Frameworks */,
+				3656833926425F08002C7085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomFramework;
+			productName = CustomFramework;
+			productReference = 3656833B26425F08002C7085 /* CustomFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		607FACCF1AFB9204008FA782 /* DinaYestemirCustomFramework_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "DinaYestemirCustomFramework_Example" */;
@@ -171,10 +246,12 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				D16857C32AA5C29B535E96EF /* [CP] Embed Pods Frameworks */,
+				3656834426425F09002C7085 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3656834126425F08002C7085 /* PBXTargetDependency */,
 			);
 			name = DinaYestemirCustomFramework_Example;
 			productName = DinaYestemirCustomFramework;
@@ -210,6 +287,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
+					3656833A26425F08002C7085 = {
+						CreatedOnToolsVersion = 12.5;
+						DevelopmentTeam = DX65PMA448;
+						ProvisioningStyle = Automatic;
+					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = DX65PMA448;
@@ -238,11 +320,19 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* DinaYestemirCustomFramework_Example */,
 				607FACE41AFB9204008FA782 /* DinaYestemirCustomFramework_Tests */,
+				3656833A26425F08002C7085 /* CustomFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3656833926425F08002C7085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCE1AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,6 +418,13 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3656833726425F08002C7085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -348,6 +445,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3656834126425F08002C7085 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3656833A26425F08002C7085 /* CustomFramework */;
+			targetProxy = 3656834026425F08002C7085 /* PBXContainerItemProxy */;
+		};
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* DinaYestemirCustomFramework_Example */;
@@ -375,6 +477,79 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3656834526425F09002C7085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DX65PMA448;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CustomFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dina.CustomFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3656834626425F09002C7085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DX65PMA448;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CustomFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dina.CustomFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -549,6 +724,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3656834726425F09002C7085 /* Build configuration list for PBXNativeTarget "CustomFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3656834526425F09002C7085 /* Debug */,
+				3656834626425F09002C7085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "DinaYestemirCustomFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
