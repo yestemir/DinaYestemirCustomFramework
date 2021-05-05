@@ -8,18 +8,15 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DinaYestemirCustomFramework'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of DinaYestemirCustomFramework.'
+  s.version          = '0.1.1'
+  s.summary          = 'Example Swift framework that supports CocoaPods, Carthage, Swift Package Manager and Fastlane for automating release and Travis for CI'
+  s.description      = "Creating Swift framework is easy but adding CocoaPods, Carthage and Swift Package Manager support at the same time can sounds like scary in the first place. In addition to that adding Fastlane to automate release processes for all dependency managers and adding Travis to run test for all commits looks like a horror movie. But Don't be afraid. After you finished this article, you can easily create your own Swift frameworks that uses all these tools to make it perfect."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
 
   s.homepage         = 'https://github.com/yestemir/DinaYestemirCustomFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -29,7 +26,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.swift_version = ['5.0', '5.1', '5.2']
   s.source_files = 'DinaYestemirCustomFramework/Classes/**/*'
   
   # s.resource_bundles = {

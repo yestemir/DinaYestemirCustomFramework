@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14BCCD640AFB695FD71ECBA4 /* DinaYestemirCustomFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DinaYestemirCustomFramework.podspec; path = ../DinaYestemirCustomFramework.podspec; sourceTree = "<group>"; };
+		14BCCD640AFB695FD71ECBA4 /* DinaYestemirCustomFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DinaYestemirCustomFramework.podspec; path = ../DinaYestemirCustomFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2783D43D8F6CCBA9D40FBD78 /* Pods-DinaYestemirCustomFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinaYestemirCustomFramework_Example.release.xcconfig"; path = "Target Support Files/Pods-DinaYestemirCustomFramework_Example/Pods-DinaYestemirCustomFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3B99D05378B0E2B7C3E6ECEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3B99D05378B0E2B7C3E6ECEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		44C651A32E0B636F804E0909 /* Pods-DinaYestemirCustomFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinaYestemirCustomFramework_Tests.release.xcconfig"; path = "Target Support Files/Pods-DinaYestemirCustomFramework_Tests/Pods-DinaYestemirCustomFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DinaYestemirCustomFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinaYestemirCustomFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		919E5EC088936851DAAF5FCA /* Pods-DinaYestemirCustomFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinaYestemirCustomFramework_Example.debug.xcconfig"; path = "Target Support Files/Pods-DinaYestemirCustomFramework_Example/Pods-DinaYestemirCustomFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9B02D87364F5E3BEDB1F9EC4 /* Pods-DinaYestemirCustomFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinaYestemirCustomFramework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DinaYestemirCustomFramework_Tests/Pods-DinaYestemirCustomFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AF3217939AF9768D0879C814 /* Pods_DinaYestemirCustomFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DinaYestemirCustomFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3F3595E8B24D6FB85CEFB76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F3F3595E8B24D6FB85CEFB76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F6D51B9484D1BFCE9CCC4C32 /* Pods_DinaYestemirCustomFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DinaYestemirCustomFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,6 @@
 				9B02D87364F5E3BEDB1F9EC4 /* Pods-DinaYestemirCustomFramework_Tests.debug.xcconfig */,
 				44C651A32E0B636F804E0909 /* Pods-DinaYestemirCustomFramework_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = DX65PMA448;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,6 +479,7 @@
 			baseConfigurationReference = 919E5EC088936851DAAF5FCA /* Pods-DinaYestemirCustomFramework_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DX65PMA448;
 				INFOPLIST_FILE = DinaYestemirCustomFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +495,7 @@
 			baseConfigurationReference = 2783D43D8F6CCBA9D40FBD78 /* Pods-DinaYestemirCustomFramework_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DX65PMA448;
 				INFOPLIST_FILE = DinaYestemirCustomFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
