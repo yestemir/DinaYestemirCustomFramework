@@ -21,5 +21,6 @@ let package = Package(
         .target(
             name: "DinaYestemirCustomFramework",
             dependencies: []),
+        
     ]
 )
