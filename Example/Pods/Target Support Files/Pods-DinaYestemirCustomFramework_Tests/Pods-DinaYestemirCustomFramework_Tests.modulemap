@@ -1,0 +1,6 @@
+framework module Pods_DinaYestemirCustomFramework_Tests {
+  umbrella header "Pods-DinaYestemirCustomFramework_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

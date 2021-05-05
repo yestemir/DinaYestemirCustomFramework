@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F6A5EF9F6B97D8B98508814483DF453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		20F4CA4A4D1E495683C2BC32AC1DDE44 /* Pods-DinaYestemirCustomFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0775212CC5C7F53F0058792D1CD07FAA /* Pods-DinaYestemirCustomFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32D873EE09BFDB14994C3E4A2546D0FB /* DinaYestemirCustomFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7162F025BD75FE4FABD2843C7AF4101 /* DinaYestemirCustomFramework-dummy.m */; };
+		5ADD57820BC584A4CF75EE595310C5B0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D650CABEE59041E0AD9635704DA1E /* ReplaceMe.swift */; };
+		5BDE15545B949B685DD0698B1D4EBC28 /* Pods-DinaYestemirCustomFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34346BC90275BDD09B3A3F0089D2780C /* Pods-DinaYestemirCustomFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7320AE2FB7B2BB806A9380338F08FA5C /* Pods-DinaYestemirCustomFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD15E262AD73B8D9430B5E16D28404 /* Pods-DinaYestemirCustomFramework_Example-dummy.m */; };
+		8D4BD42FC8E508CF21264A3C504E02AA /* Pods-DinaYestemirCustomFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07296310A8375B0ED3448E7FBDF0EDD9 /* Pods-DinaYestemirCustomFramework_Tests-dummy.m */; };
+		BCDAABBE5AC1DD86E406147D52656EE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D254CE90C624C6F589D4FDD5917D3264 /* DinaYestemirCustomFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC9CF41F3C37DDD243BCEF329BADEA0 /* DinaYestemirCustomFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E51E1A1D2C50416D05609A14A33FDAFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA17C8914446AC663601B8A172557B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D91F42E63DA44177596B65D799F9DD7;
+			remoteInfo = "Pods-DinaYestemirCustomFramework_Example";
+		};
+		F64A1703872778E5DA6DE6A1E2DDDDDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1D823E2AA9B1F66312BC726F7DBA65F;
+			remoteInfo = DinaYestemirCustomFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07296310A8375B0ED3448E7FBDF0EDD9 /* Pods-DinaYestemirCustomFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DinaYestemirCustomFramework_Tests-dummy.m"; sourceTree = "<group>"; };
+		0775212CC5C7F53F0058792D1CD07FAA /* Pods-DinaYestemirCustomFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DinaYestemirCustomFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0B8DF24F420F83C58EF994311262DEE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0C5498E5BB1307971A10DC2F26841649 /* Pods-DinaYestemirCustomFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DinaYestemirCustomFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		13183192C9204CA081DE9CC7FD326BA2 /* Pods-DinaYestemirCustomFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DinaYestemirCustomFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1DE85A8B9C1833F5C0BF7B1FAD631D85 /* Pods_DinaYestemirCustomFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DinaYestemirCustomFramework_Example.framework; path = "Pods-DinaYestemirCustomFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		217491DF22F68C3E80119F8C15CAD7C0 /* DinaYestemirCustomFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DinaYestemirCustomFramework.framework; path = DinaYestemirCustomFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34346BC90275BDD09B3A3F0089D2780C /* Pods-DinaYestemirCustomFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DinaYestemirCustomFramework_Example-umbrella.h"; sourceTree = "<group>"; };
+		3DD4D35D001CE19D2E194B2E3B7F4D2A /* Pods-DinaYestemirCustomFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DinaYestemirCustomFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4532A4E12B1FFB2AB4CBDF7ADBC42531 /* Pods-DinaYestemirCustomFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DinaYestemirCustomFramework_Example.modulemap"; sourceTree = "<group>"; };
+		4C2F1A113D8724976AD592E0FD789A24 /* DinaYestemirCustomFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DinaYestemirCustomFramework-prefix.pch"; sourceTree = "<group>"; };
+		5B28398DD2A46518D2E70E9149820884 /* DinaYestemirCustomFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DinaYestemirCustomFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5F1D650CABEE59041E0AD9635704DA1E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DinaYestemirCustomFramework/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73E051DDF0D2329C71A6C7EF6F0E5FDB /* DinaYestemirCustomFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DinaYestemirCustomFramework.release.xcconfig; sourceTree = "<group>"; };
+		772C1D956C31888CC18F4BD7556174D4 /* Pods-DinaYestemirCustomFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DinaYestemirCustomFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83EECCAC5D4808AF7D79B7BB597E7524 /* Pods-DinaYestemirCustomFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DinaYestemirCustomFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8AC9CF41F3C37DDD243BCEF329BADEA0 /* DinaYestemirCustomFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DinaYestemirCustomFramework-umbrella.h"; sourceTree = "<group>"; };
+		92522E76C4A356AEDCC5BEA77C8D4A78 /* Pods-DinaYestemirCustomFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DinaYestemirCustomFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		990603B67ED773426DB7EA9E83471FB9 /* DinaYestemirCustomFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DinaYestemirCustomFramework.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A741F4632128B3096C24DCCC9613B7E3 /* Pods-DinaYestemirCustomFramework_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DinaYestemirCustomFramework_Tests-Info.plist"; sourceTree = "<group>"; };
+		A93981AA03E4773348D9AADD41C1CEC0 /* Pods_DinaYestemirCustomFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DinaYestemirCustomFramework_Tests.framework; path = "Pods-DinaYestemirCustomFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFD15E262AD73B8D9430B5E16D28404 /* Pods-DinaYestemirCustomFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DinaYestemirCustomFramework_Example-dummy.m"; sourceTree = "<group>"; };
+		B50B20A4B471316D1C57D0086E5F1732 /* Pods-DinaYestemirCustomFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DinaYestemirCustomFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7162F025BD75FE4FABD2843C7AF4101 /* DinaYestemirCustomFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DinaYestemirCustomFramework-dummy.m"; sourceTree = "<group>"; };
+		C32613EF8EC3A7589CB378B890200B72 /* Pods-DinaYestemirCustomFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DinaYestemirCustomFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CE4047A275926D46D2DD9825866B84F6 /* Pods-DinaYestemirCustomFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DinaYestemirCustomFramework_Tests.modulemap"; sourceTree = "<group>"; };
+		D5B49B5134961F83DF274A5EA6BA1F7F /* Pods-DinaYestemirCustomFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DinaYestemirCustomFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E19DABFD7E81D64BC2C1E2393CC81E17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E4BC0EC70A28D7D5F01A8699C3950856 /* Pods-DinaYestemirCustomFramework_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DinaYestemirCustomFramework_Example-Info.plist"; sourceTree = "<group>"; };
+		E820A29605F0E06EBBFDA3902CFB10A1 /* DinaYestemirCustomFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DinaYestemirCustomFramework-Info.plist"; sourceTree = "<group>"; };
+		F4425AC93AE03E23372A9E6663CFAE25 /* DinaYestemirCustomFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DinaYestemirCustomFramework.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E5B9C079E9360F318E7C7FFBCCCF59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6A5EF9F6B97D8B98508814483DF453 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654A1B5DEDBEC2147A5AE5ADA7FF32ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDAABBE5AC1DD86E406147D52656EE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D353BC4D4729B5148BED4800B243EE68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51E1A1D2C50416D05609A14A33FDAFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8B57C0D3DDD4B1571242BC078993176F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC20D1AF5A8B655891E7962C25C08C7E /* DinaYestemirCustomFramework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		91DD8B6D4ABC1489B2FD780C6A2C2056 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5B28398DD2A46518D2E70E9149820884 /* DinaYestemirCustomFramework.podspec */,
+				E19DABFD7E81D64BC2C1E2393CC81E17 /* LICENSE */,
+				0B8DF24F420F83C58EF994311262DEE3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		99A2E309DCD3BF8A1970824DE38A55AC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A166C96055367B26416D92B9E93F3BF2 /* Pods-DinaYestemirCustomFramework_Example */,
+				FE302EDC8BD9466E277237160BFD5907 /* Pods-DinaYestemirCustomFramework_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A166C96055367B26416D92B9E93F3BF2 /* Pods-DinaYestemirCustomFramework_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4532A4E12B1FFB2AB4CBDF7ADBC42531 /* Pods-DinaYestemirCustomFramework_Example.modulemap */,
+				B50B20A4B471316D1C57D0086E5F1732 /* Pods-DinaYestemirCustomFramework_Example-acknowledgements.markdown */,
+				83EECCAC5D4808AF7D79B7BB597E7524 /* Pods-DinaYestemirCustomFramework_Example-acknowledgements.plist */,
+				AFFD15E262AD73B8D9430B5E16D28404 /* Pods-DinaYestemirCustomFramework_Example-dummy.m */,
+				D5B49B5134961F83DF274A5EA6BA1F7F /* Pods-DinaYestemirCustomFramework_Example-frameworks.sh */,
+				E4BC0EC70A28D7D5F01A8699C3950856 /* Pods-DinaYestemirCustomFramework_Example-Info.plist */,
+				34346BC90275BDD09B3A3F0089D2780C /* Pods-DinaYestemirCustomFramework_Example-umbrella.h */,
+				13183192C9204CA081DE9CC7FD326BA2 /* Pods-DinaYestemirCustomFramework_Example.debug.xcconfig */,
+				C32613EF8EC3A7589CB378B890200B72 /* Pods-DinaYestemirCustomFramework_Example.release.xcconfig */,
+			);
+			name = "Pods-DinaYestemirCustomFramework_Example";
+			path = "Target Support Files/Pods-DinaYestemirCustomFramework_Example";
+			sourceTree = "<group>";
+		};
+		C11A73FA1E5EF43D13888746EA522CDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				217491DF22F68C3E80119F8C15CAD7C0 /* DinaYestemirCustomFramework.framework */,
+				1DE85A8B9C1833F5C0BF7B1FAD631D85 /* Pods_DinaYestemirCustomFramework_Example.framework */,
+				A93981AA03E4773348D9AADD41C1CEC0 /* Pods_DinaYestemirCustomFramework_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8B57C0D3DDD4B1571242BC078993176F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C11A73FA1E5EF43D13888746EA522CDC /* Products */,
+				99A2E309DCD3BF8A1970824DE38A55AC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAB9AE7B8597846539410A8606E9F8B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				990603B67ED773426DB7EA9E83471FB9 /* DinaYestemirCustomFramework.modulemap */,
+				B7162F025BD75FE4FABD2843C7AF4101 /* DinaYestemirCustomFramework-dummy.m */,
+				E820A29605F0E06EBBFDA3902CFB10A1 /* DinaYestemirCustomFramework-Info.plist */,
+				4C2F1A113D8724976AD592E0FD789A24 /* DinaYestemirCustomFramework-prefix.pch */,
+				8AC9CF41F3C37DDD243BCEF329BADEA0 /* DinaYestemirCustomFramework-umbrella.h */,
+				F4425AC93AE03E23372A9E6663CFAE25 /* DinaYestemirCustomFramework.debug.xcconfig */,
+				73E051DDF0D2329C71A6C7EF6F0E5FDB /* DinaYestemirCustomFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DinaYestemirCustomFramework";
+			sourceTree = "<group>";
+		};
+		EC20D1AF5A8B655891E7962C25C08C7E /* DinaYestemirCustomFramework */ = {
+			isa = PBXGroup;
+			children = (
+				5F1D650CABEE59041E0AD9635704DA1E /* ReplaceMe.swift */,
+				91DD8B6D4ABC1489B2FD780C6A2C2056 /* Pod */,
+				DAB9AE7B8597846539410A8606E9F8B3 /* Support Files */,
+			);
+			name = DinaYestemirCustomFramework;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FE302EDC8BD9466E277237160BFD5907 /* Pods-DinaYestemirCustomFramework_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CE4047A275926D46D2DD9825866B84F6 /* Pods-DinaYestemirCustomFramework_Tests.modulemap */,
+				772C1D956C31888CC18F4BD7556174D4 /* Pods-DinaYestemirCustomFramework_Tests-acknowledgements.markdown */,
+				0C5498E5BB1307971A10DC2F26841649 /* Pods-DinaYestemirCustomFramework_Tests-acknowledgements.plist */,
+				07296310A8375B0ED3448E7FBDF0EDD9 /* Pods-DinaYestemirCustomFramework_Tests-dummy.m */,
+				A741F4632128B3096C24DCCC9613B7E3 /* Pods-DinaYestemirCustomFramework_Tests-Info.plist */,
+				0775212CC5C7F53F0058792D1CD07FAA /* Pods-DinaYestemirCustomFramework_Tests-umbrella.h */,
+				92522E76C4A356AEDCC5BEA77C8D4A78 /* Pods-DinaYestemirCustomFramework_Tests.debug.xcconfig */,
+				3DD4D35D001CE19D2E194B2E3B7F4D2A /* Pods-DinaYestemirCustomFramework_Tests.release.xcconfig */,
+			);
+			name = "Pods-DinaYestemirCustomFramework_Tests";
+			path = "Target Support Files/Pods-DinaYestemirCustomFramework_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AA15C847A59D11A8F03892814F2F167 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F4CA4A4D1E495683C2BC32AC1DDE44 /* Pods-DinaYestemirCustomFramework_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65035D16ACAAB69E87C1256A347E1A72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDE15545B949B685DD0698B1D4EBC28 /* Pods-DinaYestemirCustomFramework_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC7D56A2D6669091165A23BBBB700EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D254CE90C624C6F589D4FDD5917D3264 /* DinaYestemirCustomFramework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9D91F42E63DA44177596B65D799F9DD7 /* Pods-DinaYestemirCustomFramework_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBAC2784A0A7EBBD972227241CF70295 /* Build configuration list for PBXNativeTarget "Pods-DinaYestemirCustomFramework_Example" */;
+			buildPhases = (
+				65035D16ACAAB69E87C1256A347E1A72 /* Headers */,
+				0DAB750259800AC1BD976981D54DEE71 /* Sources */,
+				2E5B9C079E9360F318E7C7FFBCCCF59D /* Frameworks */,
+				CCC52E7289820261C667B2D0AB17E28E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22CFFE7187D4B373821EB3AA086289F3 /* PBXTargetDependency */,
+			);
+			name = "Pods-DinaYestemirCustomFramework_Example";
+			productName = "Pods-DinaYestemirCustomFramework_Example";
+			productReference = 1DE85A8B9C1833F5C0BF7B1FAD631D85 /* Pods_DinaYestemirCustomFramework_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1D823E2AA9B1F66312BC726F7DBA65F /* DinaYestemirCustomFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0561BFA4BE4ED99B4379C62031463142 /* Build configuration list for PBXNativeTarget "DinaYestemirCustomFramework" */;
+			buildPhases = (
+				6AC7D56A2D6669091165A23BBBB700EB /* Headers */,
+				69BA147F16CCF1FFA9C060C442993726 /* Sources */,
+				654A1B5DEDBEC2147A5AE5ADA7FF32ED /* Frameworks */,
+				4C2CB74E81D7F4540CB0120D98DBEC65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinaYestemirCustomFramework;
+			productName = DinaYestemirCustomFramework;
+			productReference = 217491DF22F68C3E80119F8C15CAD7C0 /* DinaYestemirCustomFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAE999C4F06BDAF53261DCFFDAE165A1 /* Pods-DinaYestemirCustomFramework_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25736FF2F07CE48711A5499F56130FE /* Build configuration list for PBXNativeTarget "Pods-DinaYestemirCustomFramework_Tests" */;
+			buildPhases = (
+				0AA15C847A59D11A8F03892814F2F167 /* Headers */,
+				833351F641730194E1BC1AD22C9C0400 /* Sources */,
+				D353BC4D4729B5148BED4800B243EE68 /* Frameworks */,
+				B4F214EFF8150EC19A08D517245ED90C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02F2B93D63FAEA65CA22E7C9CC6B220C /* PBXTargetDependency */,
+			);
+			name = "Pods-DinaYestemirCustomFramework_Tests";
+			productName = "Pods-DinaYestemirCustomFramework_Tests";
+			productReference = A93981AA03E4773348D9AADD41C1CEC0 /* Pods_DinaYestemirCustomFramework_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C11A73FA1E5EF43D13888746EA522CDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1D823E2AA9B1F66312BC726F7DBA65F /* DinaYestemirCustomFramework */,
+				9D91F42E63DA44177596B65D799F9DD7 /* Pods-DinaYestemirCustomFramework_Example */,
+				EAE999C4F06BDAF53261DCFFDAE165A1 /* Pods-DinaYestemirCustomFramework_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C2CB74E81D7F4540CB0120D98DBEC65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F214EFF8150EC19A08D517245ED90C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC52E7289820261C667B2D0AB17E28E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DAB750259800AC1BD976981D54DEE71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7320AE2FB7B2BB806A9380338F08FA5C /* Pods-DinaYestemirCustomFramework_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BA147F16CCF1FFA9C060C442993726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D873EE09BFDB14994C3E4A2546D0FB /* DinaYestemirCustomFramework-dummy.m in Sources */,
+				5ADD57820BC584A4CF75EE595310C5B0 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833351F641730194E1BC1AD22C9C0400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4BD42FC8E508CF21264A3C504E02AA /* Pods-DinaYestemirCustomFramework_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02F2B93D63FAEA65CA22E7C9CC6B220C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DinaYestemirCustomFramework_Example";
+			target = 9D91F42E63DA44177596B65D799F9DD7 /* Pods-DinaYestemirCustomFramework_Example */;
+			targetProxy = AA17C8914446AC663601B8A172557B68 /* PBXContainerItemProxy */;
+		};
+		22CFFE7187D4B373821EB3AA086289F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DinaYestemirCustomFramework;
+			target = E1D823E2AA9B1F66312BC726F7DBA65F /* DinaYestemirCustomFramework */;
+			targetProxy = F64A1703872778E5DA6DE6A1E2DDDDDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AE18A7B77DB0CA59A2E5A407D56BA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13183192C9204CA081DE9CC7FD326BA2 /* Pods-DinaYestemirCustomFramework_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DinaYestemirCustomFramework_Example/Pods-DinaYestemirCustomFramework_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DinaYestemirCustomFramework_Example/Pods-DinaYestemirCustomFramework_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		14C17E70CD57AC845F8C706DCF78BB11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4425AC93AE03E23372A9E6663CFAE25 /* DinaYestemirCustomFramework.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DinaYestemirCustomFramework/DinaYestemirCustomFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DinaYestemirCustomFramework/DinaYestemirCustomFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DinaYestemirCustomFramework/DinaYestemirCustomFramework.modulemap";
+				PRODUCT_MODULE_NAME = DinaYestemirCustomFramework;
+				PRODUCT_NAME = DinaYestemirCustomFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		60A035E7833E65377DBC9EA316AFF151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92522E76C4A356AEDCC5BEA77C8D4A78 /* Pods-DinaYestemirCustomFramework_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DinaYestemirCustomFramework_Tests/Pods-DinaYestemirCustomFramework_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DinaYestemirCustomFramework_Tests/Pods-DinaYestemirCustomFramework_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77650AED7527B5E3CE9B28F0BEA2937E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C32613EF8EC3A7589CB378B890200B72 /* Pods-DinaYestemirCustomFramework_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DinaYestemirCustomFramework_Example/Pods-DinaYestemirCustomFramework_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DinaYestemirCustomFramework_Example/Pods-DinaYestemirCustomFramework_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8320A984351272ED63E1A491BA596D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DD4D35D001CE19D2E194B2E3B7F4D2A /* Pods-DinaYestemirCustomFramework_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DinaYestemirCustomFramework_Tests/Pods-DinaYestemirCustomFramework_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DinaYestemirCustomFramework_Tests/Pods-DinaYestemirCustomFramework_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D115FA2FFD45913530F7A3E854876086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E051DDF0D2329C71A6C7EF6F0E5FDB /* DinaYestemirCustomFramework.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DinaYestemirCustomFramework/DinaYestemirCustomFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DinaYestemirCustomFramework/DinaYestemirCustomFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DinaYestemirCustomFramework/DinaYestemirCustomFramework.modulemap";
+				PRODUCT_MODULE_NAME = DinaYestemirCustomFramework;
+				PRODUCT_NAME = DinaYestemirCustomFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0561BFA4BE4ED99B4379C62031463142 /* Build configuration list for PBXNativeTarget "DinaYestemirCustomFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C17E70CD57AC845F8C706DCF78BB11 /* Debug */,
+				D115FA2FFD45913530F7A3E854876086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25736FF2F07CE48711A5499F56130FE /* Build configuration list for PBXNativeTarget "Pods-DinaYestemirCustomFramework_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60A035E7833E65377DBC9EA316AFF151 /* Debug */,
+				8320A984351272ED63E1A491BA596D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBAC2784A0A7EBBD972227241CF70295 /* Build configuration list for PBXNativeTarget "Pods-DinaYestemirCustomFramework_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE18A7B77DB0CA59A2E5A407D56BA15 /* Debug */,
+				77650AED7527B5E3CE9B28F0BEA2937E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

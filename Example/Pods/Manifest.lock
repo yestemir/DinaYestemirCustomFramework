@@ -1,0 +1,16 @@
+PODS:
+  - DinaYestemirCustomFramework (0.1.0)
+
+DEPENDENCIES:
+  - DinaYestemirCustomFramework (from `../`)
+
+EXTERNAL SOURCES:
+  DinaYestemirCustomFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DinaYestemirCustomFramework: 424fe4bb6cee92dcd758c1ba5ead0ce3ee560071
+
+PODFILE CHECKSUM: 87838c75253967aba85f567ec7e4faafa19ea3dc
+
+COCOAPODS: 1.10.1
