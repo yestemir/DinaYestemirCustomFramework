@@ -10,7 +10,7 @@
 		1F6A5EF9F6B97D8B98508814483DF453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		20F4CA4A4D1E495683C2BC32AC1DDE44 /* Pods-DinaYestemirCustomFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0775212CC5C7F53F0058792D1CD07FAA /* Pods-DinaYestemirCustomFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32D873EE09BFDB14994C3E4A2546D0FB /* DinaYestemirCustomFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7162F025BD75FE4FABD2843C7AF4101 /* DinaYestemirCustomFramework-dummy.m */; };
-		365682F226424066002C7085 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365682F126424066002C7085 /* Main.swift */; };
+		365682F626424566002C7085 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365682F526424566002C7085 /* Main.swift */; };
 		5BDE15545B949B685DD0698B1D4EBC28 /* Pods-DinaYestemirCustomFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34346BC90275BDD09B3A3F0089D2780C /* Pods-DinaYestemirCustomFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7320AE2FB7B2BB806A9380338F08FA5C /* Pods-DinaYestemirCustomFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD15E262AD73B8D9430B5E16D28404 /* Pods-DinaYestemirCustomFramework_Example-dummy.m */; };
 		8D4BD42FC8E508CF21264A3C504E02AA /* Pods-DinaYestemirCustomFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07296310A8375B0ED3448E7FBDF0EDD9 /* Pods-DinaYestemirCustomFramework_Tests-dummy.m */; };
@@ -45,7 +45,7 @@
 		1DE85A8B9C1833F5C0BF7B1FAD631D85 /* Pods_DinaYestemirCustomFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DinaYestemirCustomFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		217491DF22F68C3E80119F8C15CAD7C0 /* DinaYestemirCustomFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DinaYestemirCustomFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34346BC90275BDD09B3A3F0089D2780C /* Pods-DinaYestemirCustomFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DinaYestemirCustomFramework_Example-umbrella.h"; sourceTree = "<group>"; };
-		365682F126424066002C7085 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Main.swift; path = DinaYestemirCustomFramework/Classes/Main.swift; sourceTree = "<group>"; };
+		365682F526424566002C7085 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Main.swift; path = Sources/DinaYestemirCustomFramework/Classes/Main.swift; sourceTree = "<group>"; };
 		3DD4D35D001CE19D2E194B2E3B7F4D2A /* Pods-DinaYestemirCustomFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DinaYestemirCustomFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4532A4E12B1FFB2AB4CBDF7ADBC42531 /* Pods-DinaYestemirCustomFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DinaYestemirCustomFramework_Example.modulemap"; sourceTree = "<group>"; };
 		4C2F1A113D8724976AD592E0FD789A24 /* DinaYestemirCustomFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DinaYestemirCustomFramework-prefix.pch"; sourceTree = "<group>"; };
@@ -201,7 +201,7 @@
 			children = (
 				91DD8B6D4ABC1489B2FD780C6A2C2056 /* Pod */,
 				DAB9AE7B8597846539410A8606E9F8B3 /* Support Files */,
-				365682F126424066002C7085 /* Main.swift */,
+				365682F526424566002C7085 /* Main.swift */,
 			);
 			name = DinaYestemirCustomFramework;
 			path = ../..;
@@ -380,8 +380,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				365682F626424566002C7085 /* Main.swift in Sources */,
 				32D873EE09BFDB14994C3E4A2546D0FB /* DinaYestemirCustomFramework-dummy.m in Sources */,
-				365682F226424066002C7085 /* Main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

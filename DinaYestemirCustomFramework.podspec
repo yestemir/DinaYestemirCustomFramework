@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
   s.swift_version = ['5.0', '5.1', '5.2']
-  s.source_files = 'DinaYestemirCustomFramework/Classes/**/*'
+  s.source_files = 'Sources/ODCustomFramework/Classes/**/*'
   
   # s.resource_bundles = {
   #   'DinaYestemirCustomFramework' => ['DinaYestemirCustomFramework/Assets/*.png']
