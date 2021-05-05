@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "DinaYestemirCustomFramework",
             dependencies: []),
-        .testTarget(
-            name: "DinaYestemirCustomFrameworkTests",
-            dependencies: ["DinaYestemirCustomFramework"]),
     ]
 )
