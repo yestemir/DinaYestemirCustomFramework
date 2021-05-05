@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3656833F26425F08002C7085 /* CustomFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 3656833D26425F08002C7085 /* CustomFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3656834226425F08002C7085 /* CustomFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3656833B26425F08002C7085 /* CustomFramework.framework */; };
 		3656834326425F08002C7085 /* CustomFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3656833B26425F08002C7085 /* CustomFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		412CDBAFC70E1DC22F25DDFD /* Pods_DinaYestemirCustomFramework_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D51B9484D1BFCE9CCC4C32 /* Pods_DinaYestemirCustomFramework_Tests.framework */; };
@@ -55,8 +54,6 @@
 		14BCCD640AFB695FD71ECBA4 /* DinaYestemirCustomFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DinaYestemirCustomFramework.podspec; path = ../DinaYestemirCustomFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2783D43D8F6CCBA9D40FBD78 /* Pods-DinaYestemirCustomFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinaYestemirCustomFramework_Example.release.xcconfig"; path = "Target Support Files/Pods-DinaYestemirCustomFramework_Example/Pods-DinaYestemirCustomFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3656833B26425F08002C7085 /* CustomFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3656833D26425F08002C7085 /* CustomFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomFramework.h; sourceTree = "<group>"; };
-		3656833E26425F08002C7085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B99D05378B0E2B7C3E6ECEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		44C651A32E0B636F804E0909 /* Pods-DinaYestemirCustomFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinaYestemirCustomFramework_Tests.release.xcconfig"; path = "Target Support Files/Pods-DinaYestemirCustomFramework_Tests/Pods-DinaYestemirCustomFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DinaYestemirCustomFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinaYestemirCustomFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,15 +110,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3656833C26425F08002C7085 /* CustomFramework */ = {
-			isa = PBXGroup;
-			children = (
-				3656833D26425F08002C7085 /* CustomFramework.h */,
-				3656833E26425F08002C7085 /* Info.plist */,
-			);
-			path = CustomFramework;
-			sourceTree = "<group>";
-		};
 		3B31FCB406CD7ABCE462352F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,7 +127,6 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for DinaYestemirCustomFramework */,
 				607FACE81AFB9204008FA782 /* Tests */,
-				3656833C26425F08002C7085 /* CustomFramework */,
 				607FACD11AFB9204008FA782 /* Products */,
 				3B31FCB406CD7ABCE462352F /* Pods */,
 				0C08962EFDBE0BFBC8A6C079 /* Frameworks */,
@@ -212,7 +199,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3656833F26425F08002C7085 /* CustomFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
