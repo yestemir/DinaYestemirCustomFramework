@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let framework = Main()
         framework.log(message: "Hi!")
+        //qwe
     }
 
     override func didReceiveMemoryWarning() {
