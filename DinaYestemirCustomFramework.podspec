@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DinaYestemirCustomFramework'
-  s.version          = '0.1.11'
+  s.version          = '0.1.12'
   s.summary          = 'Example Swift framework that supports CocoaPods, Carthage, Swift Package Manager and Fastlane for automating release and Travis for CI'
   s.description      = "Creating Swift framework is easy but adding CocoaPods, Carthage and Swift Package Manager support at the same time can sounds like scary in the first place. In addition to that adding Fastlane to automate release processes for all dependency managers and adding Travis to run test for all commits looks like a horror movie. But Don't be afraid. After you finished this article, you can easily create your own Swift frameworks that uses all these tools to make it perfect."
 
@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yestemir' => 'dina.yestemir@gmail.com' }
   s.source           = { :git => 'https://github.com/yestemir/DinaYestemirCustomFramework.git', :tag => s.version.to_s }
+  s.deprecated = true
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
